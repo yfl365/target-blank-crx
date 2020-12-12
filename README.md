@@ -1,1 +1,1 @@
-# target-blank-crx
+# www

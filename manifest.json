@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "target-blank-crx",
+  "version": "1.0.0",
+  "description": "点击链接都打开新标签",
+  "content_scripts":
+  [
+    {
+      "matches": ["https://store.steampowered.com/search/*"],
+      "js": ["js/content-script.js"]
+    }
+  ]
+}
